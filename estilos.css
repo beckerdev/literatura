@@ -65,6 +65,7 @@ h1 {
 .resumo {
   font-size: 1rem;
   color: #444;
+  position: right;
 }
 
 .colunas {

@@ -96,3 +96,22 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+.conteudo-lateral {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;             /* Espaçamento entre imagem e texto */
+}
+
+.conteudo-lateral img {
+  max-width: 718px;
+  max-height: 1000px;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;        /* Impede que a imagem encolha */
+}
+
+.conteudo-lateral p {
+  flex: 1;               /* Faz o parágrafo ocupar o restante da largura */
+  margin: 0;
+}
+
